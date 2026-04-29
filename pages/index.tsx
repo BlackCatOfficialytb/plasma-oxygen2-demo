@@ -5,7 +5,7 @@ import Panel from "@/components/Panel";
 import AppLauncher from "@/components/AppLauncher";
 import DolphinContent from "@/components/DolphinContent";
 import SystemSettingsContent from "@/components/SystemSettingsContent";
-import { IconFileManager, IconSystemSettings } from "@/components/Icons";
+import { Oxygen2Icon } from "@/components/Icons";
 
 type WindowInstance = {
   id: string;
@@ -30,7 +30,7 @@ function getResponsiveWindows(vw: number, vh: number): WindowInstance[] {
       {
         id: "settings",
         title: "About KDE — System Settings",
-        icon: <IconSystemSettings size={16} />,
+        icon: <Oxygen2Icon name="categories/preferences-system" size={16} />,
         content: <SystemSettingsContent />,
         active: true,
         width: vw - 8,
@@ -46,7 +46,7 @@ function getResponsiveWindows(vw: number, vh: number): WindowInstance[] {
       {
         id: "dolphin",
         title: "Home — Dolphin",
-        icon: <IconFileManager size={16} />,
+        icon: <Oxygen2Icon name="apps/system-file-manager" size={16} />,
         content: <DolphinContent />,
         active: false,
         width: Math.min(vw - 40, 560),
@@ -57,7 +57,7 @@ function getResponsiveWindows(vw: number, vh: number): WindowInstance[] {
       {
         id: "settings",
         title: "About KDE — System Settings",
-        icon: <IconSystemSettings size={16} />,
+        icon: <Oxygen2Icon name="categories/preferences-system" size={16} />,
         content: <SystemSettingsContent />,
         active: true,
         width: Math.min(vw - 40, 480),
@@ -73,7 +73,7 @@ function getResponsiveWindows(vw: number, vh: number): WindowInstance[] {
     {
       id: "dolphin",
       title: "Home — Dolphin",
-      icon: <IconFileManager size={16} />,
+      icon: <Oxygen2Icon name="apps/system-file-manager" size={16} />,
       content: <DolphinContent />,
       active: false,
       width: Math.min(700, vw - 100),
@@ -84,7 +84,7 @@ function getResponsiveWindows(vw: number, vh: number): WindowInstance[] {
     {
       id: "settings",
       title: "About KDE — System Settings",
-      icon: <IconSystemSettings size={16} />,
+      icon: <Oxygen2Icon name="categories/preferences-system" size={16} />,
       content: <SystemSettingsContent />,
       active: true,
       width: Math.min(580, vw - 80),

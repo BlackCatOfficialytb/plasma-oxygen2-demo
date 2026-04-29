@@ -1,4 +1,4 @@
-import { KdeLogo } from "./Icons";
+import Oxygen2Icon from "./Oxygen2Icon";
 
 export default function SystemSettingsContent() {
   return (
@@ -15,46 +15,38 @@ export default function SystemSettingsContent() {
       <div style={{ flex: 1, overflow: "auto" }}>
         <div className="ox-about-kde">
           <div className="kde-logo-area">
-            <KdeLogo size={80} />
-            <div style={{ fontSize: 18, fontWeight: 700, color: "#1d99f3" }}>KDE</div>
-            <div style={{ fontSize: 11, color: "var(--ox-fg-muted)" }}>Be Free!</div>
-            <div style={{ marginTop: 12 }}>
-              {/* Konqi mascot placeholder — a fun colored circle */}
-              <svg width="90" height="100" viewBox="0 0 90 100" fill="none">
-                <ellipse cx="45" cy="55" rx="30" ry="35" fill="#4caf50" />
-                <ellipse cx="45" cy="50" rx="25" ry="28" fill="#66bb6a" />
-                {/* Eyes */}
-                <circle cx="37" cy="42" r="5" fill="white" />
-                <circle cx="53" cy="42" r="5" fill="white" />
-                <circle cx="38" cy="43" r="2.5" fill="#333" />
-                <circle cx="54" cy="43" r="2.5" fill="#333" />
-                {/* Mouth */}
-                <path d="M38 56 Q45 62 52 56" stroke="#333" strokeWidth="1.5" fill="none" />
-                {/* Spikes */}
-                <path d="M30 25l5 10M45 18l0 12M60 25l-5 10" stroke="#4caf50" strokeWidth="3" strokeLinecap="round" />
-                {/* Arms */}
-                <path d="M18 55l10 5M72 55l-10 5" stroke="#4caf50" strokeWidth="4" strokeLinecap="round" />
-                {/* Belly */}
-                <ellipse cx="45" cy="62" rx="14" ry="12" fill="#a5d6a7" />
-              </svg>
-            </div>
+            <Oxygen2Icon name="apps/kde" size={80} alt="KDE Logo" />
+            <div style={{ fontSize: 24, fontWeight: 700, marginTop: 8, color: "var(--ox-accent)" }}>KDE</div>
+            <div style={{ fontSize: 13, color: "var(--ox-fg-muted)", fontStyle: "italic" }}>Be Free!</div>
           </div>
 
           <div className="kde-info">
+            <h2 style={{ fontSize: 18, marginBottom: 12 }}>KDE Plasma 6</h2>
+            <div style={{ display: 'grid', gridTemplateColumns: 'auto 1fr', gap: '8px 16px', marginBottom: 20 }}>
+              <span style={{ color: 'var(--ox-fg-muted)' }}>KDE Plasma Version:</span>
+              <span>6.0.0</span>
+              <span style={{ color: 'var(--ox-fg-muted)' }}>KDE Frameworks Version:</span>
+              <span>6.1.0</span>
+              <span style={{ color: 'var(--ox-fg-muted)' }}>Qt Version:</span>
+              <span>6.6.2</span>
+              <span style={{ color: 'var(--ox-fg-muted)' }}>Kernel Version:</span>
+              <span>6.8.0-generic (64-bit)</span>
+              <span style={{ color: 'var(--ox-fg-muted)' }}>Graphics Platform:</span>
+              <span>Wayland</span>
+            </div>
+
             <p style={{ marginBottom: 12 }}>
               <strong>KDE</strong> is a world wide community of software engineers, artists, writers, translators and
               creators who are committed to{" "}
-              <a href="#" onClick={(e) => e.preventDefault()}>
+              <a href="https://www.gnu.org/philosophy/free-sw.html" target="_blank" rel="noreferrer">
                 free software
               </a>{" "}
-              development. KDE produces the Plasma desktop environment, hundreds of applications, and the many software
-              libraries that support them.
+              development.
             </p>
 
             <p style={{ marginBottom: 12 }}>
-              KDE is a cooperative enterprise: no single entity controls its direction or products. Instead, we work
-              together to achieve the common goal of building the world&apos;s finest Free Software. Everyone is welcome to{" "}
-              <a href="#" onClick={(e) => e.preventDefault()}>
+              Everyone is welcome to{" "}
+              <a href="https://community.kde.org/Get_Involved" target="_blank" rel="noreferrer">
                 join and contribute
               </a>{" "}
               to KDE, including you.
@@ -62,10 +54,10 @@ export default function SystemSettingsContent() {
 
             <p>
               Visit{" "}
-              <a href="#" onClick={(e) => e.preventDefault()}>
+              <a href="https://www.kde.org" target="_blank" rel="noreferrer">
                 https://www.kde.org
               </a>{" "}
-              for more information about the KDE community and the software we produce.
+              for more information.
             </p>
           </div>
         </div>
@@ -81,7 +73,7 @@ export default function SystemSettingsContent() {
         }}
       >
         <button className="ox-button" style={{ minWidth: 80 }}>
-          ✕ Close
+          Close
         </button>
       </div>
     </>

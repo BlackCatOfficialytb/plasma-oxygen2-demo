@@ -1,55 +1,38 @@
-import {
-  IconHome,
-  IconDesktop,
-  IconDocuments,
-  IconDownloads,
-  IconMusic,
-  IconPictures,
-  IconVideos,
-  IconTrash,
-  IconNetwork,
-  IconFolder,
-  IconArrowLeft,
-  IconArrowRight,
-  IconArrowUp,
-  IconSearch,
-} from "./Icons";
+import Oxygen2Icon from "./Oxygen2Icon";
 
+/* ── Sidebar entries ── */
 const places = [
-  { name: "Home", icon: <IconHome size={16} />, active: true },
-  { name: "Desktop", icon: <IconDesktop size={16} /> },
-  { name: "Documents", icon: <IconDocuments size={16} /> },
-  { name: "Downloads", icon: <IconDownloads size={16} /> },
-  { name: "Music", icon: <IconMusic size={16} /> },
-  { name: "Pictures", icon: <IconPictures size={16} /> },
-  { name: "Videos", icon: <IconVideos size={16} /> },
-  { name: "Trash", icon: <IconTrash size={16} /> },
+  { name: "Home",      icon: "places/user-home",        active: true },
+  { name: "Desktop",   icon: "places/user-desktop" },
+  { name: "Documents", icon: "places/folder-documents" },
+  { name: "Downloads", icon: "places/folder-downloads" },
+  { name: "Music",     icon: "places/folder-sound" },
+  { name: "Pictures",  icon: "places/folder-image" },
+  { name: "Videos",    icon: "places/folder-video" },
+  { name: "Trash",     icon: "places/user-trash" },
 ];
 
 const remote = [
-  { name: "Network", icon: <IconNetwork size={16} /> },
+  { name: "Network", icon: "places/network-workgroup" },
 ];
 
 const recent = [
-  { name: "Recent Files", icon: <IconDocuments size={16} /> },
-  { name: "Recent Locations", icon: <IconFolder size={16} /> },
+  { name: "Recent Files",     icon: "places/document-multiple" },
+  { name: "Recent Locations", icon: "places/folder-default" },
 ];
 
-type FolderItem = {
-  name: string;
-  type: "folder" | "file";
-  color?: string;
-};
+/* ── File‑grid items ── */
+type FolderItem = { name: string; icon: string };
 
 const homeFiles: FolderItem[] = [
-  { name: "Desktop", type: "folder", color: "#42a5f5" },
-  { name: "Documents", type: "folder", color: "#66bb6a" },
-  { name: "Downloads", type: "folder", color: "#ffa726" },
-  { name: "Music", type: "folder", color: "#ab47bc" },
-  { name: "Pictures", type: "folder", color: "#26c6da" },
-  { name: "Videos", type: "folder", color: "#ef5350" },
-  { name: "Templates", type: "folder", color: "#78909c" },
-  { name: ".config", type: "folder", color: "#8d6e63" },
+  { name: "Desktop",   icon: "places/user-desktop" },
+  { name: "Documents", icon: "places/folder-documents" },
+  { name: "Downloads", icon: "places/folder-downloads" },
+  { name: "Music",     icon: "places/folder-sound" },
+  { name: "Pictures",  icon: "places/folder-image" },
+  { name: "Videos",    icon: "places/folder-video" },
+  { name: "Templates", icon: "places/folder-temp" },
+  { name: ".config",   icon: "places/folder-brown" },
 ];
 
 export default function DolphinContent() {
@@ -58,13 +41,13 @@ export default function DolphinContent() {
       {/* Toolbar */}
       <div className="ox-toolbar">
         <button className="ox-toolbar-btn disabled" aria-label="Back">
-          <IconArrowLeft size={16} color="#7f8c8d" />
+          <Oxygen2Icon name="actions/go-previous" size={16} alt="Back" />
         </button>
         <button className="ox-toolbar-btn disabled" aria-label="Forward">
-          <IconArrowRight size={16} color="#7f8c8d" />
+          <Oxygen2Icon name="actions/go-next" size={16} alt="Forward" />
         </button>
         <button className="ox-toolbar-btn" aria-label="Up">
-          <IconArrowUp size={16} />
+          <Oxygen2Icon name="actions/go-up" size={16} alt="Up" />
         </button>
         <div className="ox-toolbar-separator" />
         <div className="ox-breadcrumb">
@@ -72,7 +55,7 @@ export default function DolphinContent() {
         </div>
         <div className="ox-toolbar-separator" />
         <button className="ox-toolbar-btn" aria-label="Search">
-          <IconSearch size={16} />
+          <Oxygen2Icon name="actions/edit-find" size={16} alt="Search" />
         </button>
       </div>
 
@@ -83,7 +66,9 @@ export default function DolphinContent() {
           <div className="ox-sidebar-section">Places</div>
           {places.map((p) => (
             <div key={p.name} className={`ox-sidebar-item ${p.active ? "active" : ""}`}>
-              <span className="sidebar-icon">{p.icon}</span>
+              <span className="sidebar-icon">
+                <Oxygen2Icon name={p.icon} size={16} alt={p.name} />
+              </span>
               {p.name}
             </div>
           ))}
@@ -91,7 +76,9 @@ export default function DolphinContent() {
           <div className="ox-sidebar-section" style={{ marginTop: 8 }}>Remote</div>
           {remote.map((r) => (
             <div key={r.name} className="ox-sidebar-item">
-              <span className="sidebar-icon">{r.icon}</span>
+              <span className="sidebar-icon">
+                <Oxygen2Icon name={r.icon} size={16} alt={r.name} />
+              </span>
               {r.name}
             </div>
           ))}
@@ -99,7 +86,9 @@ export default function DolphinContent() {
           <div className="ox-sidebar-section" style={{ marginTop: 8 }}>Recent</div>
           {recent.map((r) => (
             <div key={r.name} className="ox-sidebar-item">
-              <span className="sidebar-icon">{r.icon}</span>
+              <span className="sidebar-icon">
+                <Oxygen2Icon name={r.icon} size={16} alt={r.name} />
+              </span>
               {r.name}
             </div>
           ))}
@@ -112,7 +101,7 @@ export default function DolphinContent() {
           {homeFiles.map((file) => (
             <div key={file.name} className="ox-file-item">
               <div className="file-icon">
-                <IconFolder size={48} color={file.color} />
+                <Oxygen2Icon name={file.icon} size={48} alt={file.name} />
               </div>
               <div className="file-name">{file.name}</div>
             </div>

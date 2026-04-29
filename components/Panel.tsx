@@ -1,13 +1,6 @@
 import { useState, useEffect } from "react";
-import {
-  KdeLogo,
-  IconWifi,
-  IconVolume,
-  IconBattery,
-  IconArrowUp,
-  IconFileManager,
-  IconSystemSettings,
-} from "./Icons";
+import Oxygen2Icon from "./Oxygen2Icon";
+import { IconArrowUp } from "./Icons";
 
 type PanelProps = {
   onLauncherToggle: () => void;
@@ -34,14 +27,14 @@ export default function Panel({ onLauncherToggle, launcherOpen, windows, onWindo
 
   return (
     <footer className="ox-panel" id="panel-taskbar">
-      {/* KDE Start button */}
+      {/* KDE Start button – uses the real Oxygen‑2 start‑here‑kde icon */}
       <button
         className={`ox-panel-button launcher ${launcherOpen ? "active" : ""}`}
         onClick={onLauncherToggle}
         aria-label="Application Launcher"
         id="panel-launcher-btn"
       >
-        <KdeLogo size={22} />
+        <Oxygen2Icon name="places/start-here-kde" size={22} alt="KDE" />
       </button>
 
       {/* Task entries */}
@@ -64,13 +57,13 @@ export default function Panel({ onLauncherToggle, launcherOpen, windows, onWindo
           <IconArrowUp size={12} />
         </button>
         <button className="ox-panel-tray-btn" aria-label="Network">
-          <IconWifi size={16} />
+          <Oxygen2Icon name="devices/network-wireless" size={16} alt="WiFi" />
         </button>
         <button className="ox-panel-tray-btn" aria-label="Volume">
-          <IconVolume size={16} />
+          <Oxygen2Icon name="status/audio-volume-high" size={16} alt="Volume" />
         </button>
         <button className="ox-panel-tray-btn" aria-label="Battery">
-          <IconBattery size={16} />
+          <Oxygen2Icon name="status/battery-100" size={16} alt="Battery" />
         </button>
       </div>
 

@@ -1,65 +1,47 @@
 import { useState } from "react";
-import {
-  IconStar,
-  IconApps,
-  IconSettings,
-  IconPower,
-  IconSleep,
-  IconRestart,
-  IconDiscover,
-  IconFileManager,
-  IconSystemSettings,
-  IconKonsole,
-  IconTextEditor,
-  IconBrowser,
-} from "./Icons";
+import Oxygen2Icon from "./Oxygen2Icon";
 
-type AppItem = {
-  name: string;
-  icon: React.ReactNode;
-};
-
+/* ── Category entries (sidebar) ── */
 const categories = [
-  { name: "Favorites", icon: <IconStar size={16} /> },
-  { name: "All Applications", icon: <IconApps size={16} /> },
-  { name: "Development", icon: <IconKonsole size={16} /> },
-  { name: "Games", icon: <IconApps size={16} /> },
-  { name: "Graphics", icon: <IconPictures size={16} /> },
-  { name: "Help", icon: <IconApps size={16} /> },
-  { name: "Internet", icon: <IconBrowser size={16} /> },
-  { name: "Multimedia", icon: <IconApps size={16} /> },
-  { name: "Office", icon: <IconTextEditor size={16} /> },
-  { name: "System", icon: <IconSettings size={16} /> },
-  { name: "Utilities", icon: <IconApps size={16} /> },
-  { name: "Lost & Found", icon: <IconApps size={16} /> },
+  { name: "Favorites",          icon: "places/favorites" },
+  { name: "All Applications",   icon: "categories/applications-other" },
+  { name: "Development",        icon: "categories/applications-development" },
+  { name: "Games",              icon: "categories/applications-games" },
+  { name: "Graphics",           icon: "categories/applications-graphics" },
+  { name: "Help",               icon: "categories/system-help" },
+  { name: "Internet",           icon: "categories/applications-internet" },
+  { name: "Multimedia",         icon: "categories/applications-multimedia" },
+  { name: "Office",             icon: "categories/applications-office" },
+  { name: "System",             icon: "categories/applications-system" },
+  { name: "Utilities",          icon: "categories/applications-utilities" },
+  { name: "Lost & Found",       icon: "categories/applications-other" },
 ];
 
-import { IconPictures } from "./Icons";
+/* ── App items ── */
+type AppItem = { name: string; icon: string };
 
 const favoriteApps: AppItem[] = [
-  { name: "Discover", icon: <IconDiscover size={40} /> },
-  { name: "Dolphin", icon: <IconFileManager size={40} /> },
-  { name: "System Settings", icon: <IconSystemSettings size={40} /> },
+  { name: "Discover",         icon: "apps/muondiscover" },
+  { name: "Dolphin",          icon: "apps/system-file-manager" },
+  { name: "System Settings",  icon: "categories/preferences-system" },
 ];
 
 const allApps: AppItem[] = [
-  { name: "Discover", icon: <IconDiscover size={40} /> },
-  { name: "Dolphin", icon: <IconFileManager size={40} /> },
-  { name: "System Settings", icon: <IconSystemSettings size={40} /> },
-  { name: "Konsole", icon: <IconKonsole size={40} /> },
-  { name: "Kate", icon: <IconTextEditor size={40} /> },
-  { name: "Firefox", icon: <IconBrowser size={40} /> },
-  { name: "Gwenview", icon: <IconPictures size={40} /> },
-  { name: "KCalc", icon: <IconApps size={40} /> },
-  { name: "Spectacle", icon: <IconApps size={40} /> },
-  { name: "Okular", icon: <IconApps size={40} /> },
-  { name: "Ark", icon: <IconApps size={40} /> },
-  { name: "Info Center", icon: <IconSettings size={40} /> },
+  { name: "Discover",         icon: "apps/muondiscover" },
+  { name: "Dolphin",          icon: "apps/system-file-manager" },
+  { name: "System Settings",  icon: "categories/preferences-system" },
+  { name: "Konsole",          icon: "apps/utilities-terminal" },
+  { name: "Kate",             icon: "apps/accessories-text-editor" },
+  { name: "Firefox",          icon: "apps/internet-web-browser" },
+  { name: "Gwenview",         icon: "apps/graphics-viewer-document" },
+  { name: "KCalc",            icon: "apps/accessories-calculator" },
+  { name: "Spectacle",        icon: "apps/ksnapshot" },
+  { name: "Okular",           icon: "apps/okular" },
+  { name: "Ark",              icon: "apps/ark" },
+  { name: "Info Center",      icon: "categories/preferences-system" },
 ];
 
-type LauncherProps = {
-  onClose: () => void;
-};
+type LauncherProps = { onClose: () => void };
 
 export default function AppLauncher({ onClose }: LauncherProps) {
   const [activeCategory, setActiveCategory] = useState(0);
@@ -74,11 +56,7 @@ export default function AppLauncher({ onClose }: LauncherProps) {
     <>
       {/* Backdrop */}
       <div
-        style={{
-          position: "fixed",
-          inset: 0,
-          zIndex: 1000,
-        }}
+        style={{ position: "fixed", inset: 0, zIndex: 1000 }}
         onClick={onClose}
       />
 
@@ -86,11 +64,8 @@ export default function AppLauncher({ onClose }: LauncherProps) {
         {/* Sidebar */}
         <div className="ox-launcher-sidebar">
           <div className="ox-launcher-sidebar-header">
-            <svg width="20" height="20" viewBox="0 0 48 48" fill="none">
-              <circle cx="24" cy="24" r="20" fill="#546e7a" />
-              <text x="24" y="28" textAnchor="middle" fill="white" fontSize="16" fontWeight="bold">W</text>
-            </svg>
-            <span>Wikipedia</span>
+            <Oxygen2Icon name="apps/kde" size={24} alt="User" />
+            <span>KDE User</span>
           </div>
           {categories.map((cat, i) => (
             <div
@@ -101,7 +76,9 @@ export default function AppLauncher({ onClose }: LauncherProps) {
                 setSearchQuery("");
               }}
             >
-              <span className="cat-icon">{cat.icon}</span>
+              <span className="cat-icon">
+                <Oxygen2Icon name={cat.icon} size={16} alt={cat.name} />
+              </span>
               {cat.name}
             </div>
           ))}
@@ -125,7 +102,9 @@ export default function AppLauncher({ onClose }: LauncherProps) {
           <div className="ox-launcher-grid">
             {filteredApps.map((app) => (
               <div key={app.name} className="ox-launcher-app" onClick={onClose}>
-                <div className="app-icon">{app.icon}</div>
+                <div className="app-icon">
+                  <Oxygen2Icon name={app.icon} size={40} alt={app.name} />
+                </div>
                 <div className="app-name">{app.name}</div>
               </div>
             ))}
@@ -134,23 +113,23 @@ export default function AppLauncher({ onClose }: LauncherProps) {
           {/* Footer with session buttons */}
           <div className="ox-launcher-footer">
             <button className="ox-launcher-footer-btn" title="Applications">
-              <IconApps size={14} /> Applications
+              <Oxygen2Icon name="categories/applications-other" size={14} alt="Apps" /> Applications
             </button>
             <button className="ox-launcher-footer-btn" title="Places">
-              <IconFileManager size={14} /> Places
+              <Oxygen2Icon name="apps/system-file-manager" size={14} alt="Places" /> Places
             </button>
             <div style={{ flex: 1 }} />
             <button className="ox-launcher-footer-btn" title="Sleep">
-              <IconSleep size={14} /> Sleep
+              <Oxygen2Icon name="actions/system-suspend" size={14} alt="Sleep" /> Sleep
             </button>
             <button className="ox-launcher-footer-btn" title="Hibernate">
-              <IconSleep size={14} /> Hibernate
+              <Oxygen2Icon name="actions/system-suspend-hibernate" size={14} alt="Hibernate" /> Hibernate
             </button>
             <button className="ox-launcher-footer-btn" title="Restart">
-              <IconRestart size={14} /> Restart
+              <Oxygen2Icon name="actions/system-reboot" size={14} alt="Restart" /> Restart
             </button>
             <button className="ox-launcher-footer-btn" title="Shut Down">
-              <IconPower size={14} /> Shut Down
+              <Oxygen2Icon name="actions/system-shutdown" size={14} alt="Shutdown" /> Shut Down
             </button>
           </div>
         </div>

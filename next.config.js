@@ -19,8 +19,9 @@ const nextConfig = {
           /* CSP – restrictive default; inline styles allowed for React */
           {
             key: "Content-Security-Policy",
-            value:
-              "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self';",
+            value: `default-src 'self'; script-src 'self' ${
+              process.env.NODE_ENV === "development" ? "'unsafe-inline' 'unsafe-eval'" : ""
+            }; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self';`.replace(/\s{2,}/g, ' '),
           },
           /* Prevent click-jacking */
           {
