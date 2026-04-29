@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="draw-spiral.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.36078431"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     borderlayer="false"
+     inkscape:snap-global="true"
+     showborder="false"
+     inkscape:zoom="45.254834"
+     inkscape:cx="8.253262"
+     inkscape:cy="8.1427766"
+     inkscape:window-width="2560"
+     inkscape:window-height="1367"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5"
+     inkscape:deskcolor="#ffffff">
+    <inkscape:grid
+       type="xygrid"
+       id="grid881"
+       empspacing="4"
+       color="#3f3fff"
+       opacity="0.07843137"
+       empcolor="#3f3fff"
+       empopacity="0.18039216" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid849"
+       spacingx="0.5"
+       spacingy="0.5"
+       empspacing="1"
+       empcolor="#3f3fff"
+       empopacity="0.05882353" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2318"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,1,1,0,0.25,0,1 @ F,0,0,1,0,0.75,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="0.25"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="true"
+       hide_knots="false"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,1,1,0,0.25,0,1 @ F,0,0,1,0,0.75,0,1" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2221"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0.75,0,1 @ F,0,1,1,0,0.25,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="0.25"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="true"
+       hide_knots="false"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0.75,0,1 @ F,0,1,1,0,0.25,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipath_lpe_path-effect164286">
+      <circle
+         style="display:none;fill:#c8c8c8;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle164297"
+         cx="-79"
+         cy="120"
+         r="8"
+         d="m -71,120 a 8,8 0 0 1 -8,8 8,8 0 0 1 -8,-8 8,8 0 0 1 8,-8 8,8 0 0 1 8,8 z" />
+      <path
+         id="lpe_path-effect164286"
+         style="fill:#c8c8c8;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         class="powerclip"
+         d="m -92.05,106.95 h 26.1 v 26.1 h -26.1 z M -71,120 a 8,8 0 0 0 -8,-8 8,8 0 0 0 -8,8 8,8 0 0 0 8,8 8,8 0 0 0 8,-8 z" />
+    </clipPath>
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect164286"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipath_lpe_path-effect164290">
+      <rect
+         style="display:none;fill:#c8c8c8;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect164292"
+         width="16"
+         height="16"
+         x="-87"
+         y="112"
+         d="m -87,112 h 16 v 16 h -16 z" />
+      <path
+         id="lpe_path-effect164290"
+         style="fill:#c8c8c8;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         class="powerclip"
+         d="m -92.05,106.95 h 26.1 v 26.1 h -26.1 z M -87,112 v 16 h 16 v -16 z" />
+    </clipPath>
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect164290"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+  </defs>
+  <path
+     style="fill:#786d7d;stroke:none;stroke-linecap:square;fill-opacity:0.15000001"
+     d="M 12,14 V 9.5 L 13.5,7 13,4 10,1.5 6,2 3,5 2.5,9.5 5,13 8,14.5 Z"
+     id="path664" />
+  <path
+     style="color:#000000;fill:#786d7d;fill-opacity:1;fill-rule:evenodd;stroke-linecap:square;-inkscape-stroke:none"
+     d="m 10.251953,-14.982422 c -2.1165018,-0.153705 -4.2655505,0.522972 -5.8730468,1.988281 -2.8302261,2.579887 -3.2895245,7.163324 -0.5898437,10.0371097 2.2448702,2.38964412 6.1934795,2.75900516 8.6210935,0.3808594 1.949011,-1.9092947 2.228457,-5.2270761 0.166016,-7.2050781 -1.572872,-1.508477 -4.2699831,-1.699502 -5.7910158,0.058594 -0.5343941,0.6176829 -0.8185987,1.4286165 -0.7988281,2.2343751 0.019771,0.8057585 0.369324,1.6266006 1.109375,2.1484375 0.4590958,0.3237251 1.0327341,0.4342961 1.5742188,0.3164062 0.5847155,-0.1271282 0.969254,-0.4882689 1.201437,-0.8853902 0.2079271,-0.3556348 -0.053382,-0.8153457 -0.4417514,-0.9593661 -0.1294018,-0.047986 -0.2593356,0.02247 -0.3028957,0.1534523 C 9.0129827,-6.3727662 8.8248723,-6.0591463 8.4570313,-6 8.1979681,-5.9435978 7.8861482,-6.0051582 7.671875,-6.15625 7.207427,-6.4837492 6.9997399,-6.9670722 6.9863281,-7.5136719 c -0.013412,-0.5465997 0.1953416,-1.1370778 0.5566406,-1.5546875 1.107899,-1.2805716 3.1505473,-1.1327126 4.3417973,0.00977 1.621697,1.5553031 1.395541,4.2301879 -0.173828,5.7675782 -1.9999092,1.9591513 -5.3142618,1.648716 -7.1933599,-0.3515669 -2.2949976,-2.4430042 -1.8984861,-6.3948999 0.5351563,-8.6132809 1.8552746,-1.691171 4.5858681,-2.180899 6.9531246,-1.351563 l 0.236784,0.08317 a 0.249701,0.249701 154.31903 0 0 0.318439,-0.153124 c 0.136698,-0.390684 -0.06237,-0.838984 -0.458235,-0.960409 -0.600239,-0.184116 -1.20644,-0.292281 -1.850894,-0.344635 z"
+     id="path864"
+     transform="scale(1,-1)"
+     sodipodi:nodetypes="csssssssccccsssccssccccc" />
+</svg>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1525"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="edit-line-width.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1527"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.23921569"
+     inkscape:showpageshadow="false"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#ffffff"
+     inkscape:document-units="px"
+     showgrid="false"
+     showborder="false"
+     guidecolor="#1fca00"
+     guideopacity="0.6"
+     showguides="true"
+     inkscape:zoom="16"
+     inkscape:cx="-3.9375"
+     inkscape:cy="7.96875"
+     inkscape:window-width="2560"
+     inkscape:window-height="1367"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1525">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1656"
+       empspacing="4"
+       color="#0099e5"
+       opacity="0.05882353"
+       empcolor="#0099e5"
+       empopacity="0.18039216"
+       dotted="false" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid130"
+       empspacing="1"
+       spacingx="0.5"
+       spacingy="0.5"
+       empcolor="#0099e5"
+       empopacity="0.05490196"
+       color="#0099e5"
+       opacity="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1522">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1073"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0.75,0,1 @ F,0,0,1,0,0.25,0,1 @ F,0,0,1,0,0.75,0,1 @ F,0,0,1,0,0.25,0,1 | F,0,0,1,0,1.5,0,1 @ F,0,0,1,0,0.5,0,1 @ F,0,0,1,0,1.5,0,1 @ F,0,0,1,0,0.5,0,1 | F,0,1,1,0,2.25,0,1 @ F,0,0,1,0,0.75,0,1 @ F,0,1,1,0,2.25,0,1 @ F,0,0,1,0,0.75,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="2.25"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="true"
+       hide_knots="false" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipath_lpe_path-effect481">
+      <circle
+         style="display:none;fill:#c8c8c8;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle487"
+         cx="-79"
+         cy="120"
+         r="8" />
+    </clipPath>
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect481"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipath_lpe_path-effect485">
+      <rect
+         style="display:block;fill:#c8c8c8;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect492"
+         width="16"
+         height="16"
+         x="-87"
+         y="112" />
+    </clipPath>
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect485"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+  </defs>
+  <path
+     id="rect1016"
+     style="fill:#786d7d;paint-order:markers stroke fill"
+     d="m 1.1015625,2.75 a 0.25,0.25 45 0 0 0.25,0.25 H 14.148437 a 0.75,0.75 135 0 0 0.75,-0.75 0.25,0.25 45 0 0 -0.25,-0.25 H 1.8515625 a 0.75,0.75 135 0 0 -0.75,0.75 z M 1,7.5 A 0.5,0.5 45 0 0 1.5,8 h 12 A 1.5,1.5 135 0 0 15,6.5 0.5,0.5 45 0 0 14.5,6 H 2.5 A 1.5,1.5 135 0 0 1,7.5 Z m 0,5.75 A 0.75,0.75 45 0 0 1.75,14 h 11 A 2.25,2.25 135 0 0 15,11.75 0.75,0.75 45 0 0 14.25,11 l -11,0 A 2.25,2.25 135 0 0 1,13.25 Z"
+     sodipodi:nodetypes="ccccccccccccccc" />
+</svg>

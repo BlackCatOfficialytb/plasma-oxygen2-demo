@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="draw-arrow.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect4429"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,1,1,0,0.25,0,1 @ F,0,0,1,0,0.75,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="0.25"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="true"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1223"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0.25,0,1 @ F,0,0,1,0,0.25,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0.25,0,1 @ F,0,0,1,0,0.25,0,1 @ F,0,1,1,0,0.5,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="0.5"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="true"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1056"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,1,1,0,0.75,0,1 @ F,0,0,1,0,1.5,0,1 @ F,0,0,1,0,1.5,0,1 @ F,0,0,1,0,1.5,0,1 @ F,0,0,1,0,0,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="0.75"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="true"
+       hide_knots="false" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="false"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#ffffff"
+     showgrid="false"
+     showborder="false"
+     inkscape:zoom="21.301934"
+     inkscape:cx="-3.8024717"
+     inkscape:cy="11.290055"
+     inkscape:window-width="2560"
+     inkscape:window-height="1367"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5">
+    <inkscape:grid
+       type="xygrid"
+       id="grid238" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid294"
+       spacingx="0.5"
+       spacingy="0.5"
+       empspacing="1"
+       empcolor="#0099e5"
+       empopacity="0.08235294" />
+  </sodipodi:namedview>
+  <style
+     type="text/css"
+     id="current-color-scheme">
+	.ColorScheme-Text {
+		color:#232629;
+	}</style>
+  <path
+     id="path1112"
+     style="opacity:0.15;fill:#786d7d;paint-order:markers stroke fill"
+     d="M 5,13 A 2,2 0 0 1 3,15 2,2 0 0 1 1,13 2,2 0 0 1 3,11 2,2 0 0 1 5,13 Z" />
+  <path
+     id="path296"
+     style="color:#000000;fill:#786d7d;-inkscape-stroke:none;paint-order:markers stroke fill"
+     d="M 9.25,2 C 9.1119288,2 9,2.1119288 9,2.25 v 0.5 C 9,2.8880712 9.1119288,3 9.25,3 h 3.042969 L 4.6777344,10.615234 C 4.4318025,10.861166 4.0978001,11 3.75,11 H 3 c -1.098645,0 -2,0.901355 -2,2 0,1.098645 0.901355,2 2,2 0.9744092,0 1.7067145,-0.722065 1.8868528,-1.378221 0.036491,-0.132918 -0.062422,-0.288119 -0.1904088,-0.339917 l -0.00122,-4.95e-4 C 4.3112612,13.125972 4.0100592,13.386316 3.7348512,13.682834 3.5530918,13.878668 3.2925313,14 3,14 2.4417941,14 2,13.558206 2,13 2,12.441794 2.4417941,12 3,12 h 0.75 c 0.6126319,0 1.2015695,-0.244539 1.6347656,-0.677734 L 13,3.7070312 V 6.75 C 13,6.8880712 13.111929,7 13.25,7 h 0.5 C 13.888071,7 14,6.8880712 14,6.75 V 2.5 C 14,2.2238576 13.776142,2 13.5,2 Z"
+     sodipodi:nodetypes="ssssccssssccssssccsssssss" />
+</svg>

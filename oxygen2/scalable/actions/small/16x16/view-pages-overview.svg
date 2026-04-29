@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="0 0 16 16"
+   id="svg7"
+   sodipodi:docname="view-pages-overview.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#ffffff"
+     showgrid="true"
+     showguides="true"
+     showborder="false"
+     inkscape:zoom="10.982338"
+     inkscape:cx="-17.755783"
+     inkscape:cy="14.295681"
+     inkscape:window-width="2560"
+     inkscape:window-height="1355"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg7">
+    <inkscape:grid
+       type="xygrid"
+       id="grid547" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect631"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,1,1,0,1,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,1,1,0,1,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,1,1,0,1,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,1,1,0,1,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="1"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="true"
+       hide_knots="false" />
+    <style
+       type="text/css"
+       id="current-color-scheme">
+        .ColorScheme-Text {
+        color:#232629;
+      }</style>
+  </defs>
+  <path
+     id="path248"
+     style="color:#000000;display:inline;fill:#786d7d;fill-opacity:1;stroke-linecap:square;-inkscape-stroke:none;paint-order:markers stroke fill"
+     d="M 3,0 C 1.9013572,0 1,0.9013572 1,2 v 8 c 0,0.378568 0.1071336,0.733487 0.2924794,1.036182 C 1.5779704,11.502429 2,11.280801 2,10.728516 V 10 9 2 C 2,1.4417953 2.4417953,1 3,1 H 8 9 9.728516 C 10.280801,1 10.502427,0.5779667 10.036176,0.29247535 9.7334815,0.10713201 9.3785648,0 9,0 Z M 5,2 C 3.9013572,2 3,2.9013572 3,4 v 8 c 0,0.378568 0.1071336,0.733487 0.2924794,1.036182 C 3.5779704,13.502429 4,13.280801 4,12.728516 V 12 11 4 C 4,3.4417953 4.4417953,3 5,3 h 5 1 0.728516 C 12.280801,3 12.502427,2.5779667 12.036176,2.2924754 11.733482,2.107132 11.378565,2 11,2 Z M 7,4 C 5.9013561,4 5,4.9013561 5,6 v 8 c 0,1.098644 0.9013561,2 2,2 h 2.5 c 2.777489,0 5.08053,-2.073204 5.447266,-4.751953 C 14.966006,11.111161 14.933371,11 14.65625,11 14.379131,11 13.942883,11.336317 13.830078,11.734375 13.295137,13.622045 11.56252,15 9.5,15 H 7 C 6.4417947,15 6,14.558205 6,14 V 6 C 6,5.4417947 6.4417947,5 7,5 h 6 c 0.558205,0 1,0.4417947 1,1 v 2 c 0,0.5522834 -0.447716,1 -1,1 h -1 c -1.098644,0 -2,0.9013561 -2,2 v 2.75 C 10,13.888071 10.111928,14 10.25,14 10.664213,14 11,13.664213 11,13.25 V 11 c 0,-0.558205 0.441795,-1 1,-1 h 1 c 1.104568,0 2,-0.8954321 2,-2 V 6 C 15,4.9013561 14.098644,4 13,4 Z" />
+</svg>

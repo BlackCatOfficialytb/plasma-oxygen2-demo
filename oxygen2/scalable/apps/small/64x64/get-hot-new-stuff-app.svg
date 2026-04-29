@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   width="128"
+   height="128"
+   viewBox="0 0 33.866666 33.866668"
+   version="1.1"
+   id="svg58">
+  <defs
+     id="defs52">
+    <linearGradient
+       xlink:href="#linearGradient901"
+       id="linearGradient894"
+       gradientUnits="userSpaceOnUse"
+       x1="130.88393"
+       y1="149.28578"
+       x2="119.08886"
+       y2="119.34065"
+       gradientTransform="matrix(0.47931048,0,0,0.47931048,-40.35969,-43.997054)" />
+    <linearGradient
+       id="linearGradient901">
+      <stop
+         style="stop-color:#008fdd;stop-opacity:1"
+         offset="0"
+         id="stop897" />
+      <stop
+         style="stop-color:#55c4ff;stop-opacity:1"
+         offset="1"
+         id="stop899" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1183">
+      <path
+         id="path1185"
+         style="opacity:1;fill:url(#linearGradient1187);fill-opacity:1;stroke:none;stroke-width:1.209;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="m 86.095004,119.39271 24.276856,17.59425 1.17482,-17.57926 z m 41.128246,3.36147 -9.62487,19.51724 21.22622,15.43162 z" />
+    </clipPath>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter1169"
+       x="-0.087478966"
+       width="1.1749579"
+       y="-0.074414015"
+       height="1.148828">
+      <feGaussianBlur
+         stdDeviation="1.9219784"
+         id="feGaussianBlur1171" />
+    </filter>
+    <linearGradient
+       xlink:href="#linearGradient877"
+       id="linearGradient879"
+       x1="112.53909"
+       y1="173.1055"
+       x2="135.60457"
+       y2="104.95382"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.47931048,0,0,0.47931048,-40.35969,-43.997054)" />
+    <linearGradient
+       id="linearGradient877">
+      <stop
+         style="stop-color:#00a6ff;stop-opacity:1;"
+         offset="0"
+         id="stop873" />
+      <stop
+         style="stop-color:#55c4ff;stop-opacity:1"
+         offset="1"
+         id="stop875" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata55">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <path
+       id="path10"
+       style="fill:url(#linearGradient894);fill-opacity:1;stroke:none;stroke-width:0.579487;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="M 0.90648248,13.229131 11.668927,21.040109 12.668277,19.279208 14.2072,17.311553 13.105738,13.23631 Z m 20.52404352,3.776022 -0.881149,0.776956 -0.325281,0.602419 -0.881136,0.679893 -3.336518,5.130709 10.17389,7.396539 z m -5.424084,7.189977 -0.08024,-1.378368 -0.574875,0.165938 -0.706632,0.852263 z" />
+    <path
+       id="path903"
+       style="fill:#005e91;fill-opacity:1;stroke:none;stroke-width:1.209;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;filter:url(#filter1169)"
+       d="m 118.68384,95.715614 7.68747,23.708686 24.90134,-0.0315 -52.729798,38.31044 z"
+       clip-path="url(#clipPath1183)"
+       transform="matrix(0.47931047,0,0,0.47931047,-40.359689,-43.997052)" />
+    <path
+       id="path889"
+       style="fill:url(#linearGradient879);fill-opacity:1;stroke:none;stroke-width:0.579487;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="M 16.526594,1.8804436 6.8728521,31.591669 19.957851,12.698919 Z M 6.8728521,31.591669 32.14695,13.229131 20.848447,13.24256 Z" />
+  </g>
+</svg>
